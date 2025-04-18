@@ -1,0 +1,90 @@
+QuickDine – Full Stack Food Ordering Application
+
+1. Introduction
+QuickDine is a comprehensive food ordering web application that enables users to explore a menu, add items to a cart, and place orders. Built using the MERN stack (MongoDB, Express.js, React, Node.js), it provides a smooth and interactive interface with dynamic backend integration and JWT-based authentication.
+
+2. Objective
+The goal of QuickDine is to simplify and digitize the process of food ordering by providing a user-friendly, mobile-responsive platform where users can view, order, and track food items easily.
+
+3. Features
+?User authentication (Login/Signup)
+?Dynamic food menu display
+?Add to cart functionality
+?Place orders with real-time data
+?Order history for each user
+?Mobile responsiveness
+?
+4. Sprint-Wise Breakdown
+Sprint 1:
+?UI Design: Homepage with hero banner and buttons
+?Initial static layout
+?Project setup for React and Node.js
+Sprint 2:
+?Backend server created using Express.js
+?MongoDB integration
+?API endpoints for food menu
+?Dynamic rendering of menu items
+Sprint 3:
+?Implemented JWT authentication for login/signup
+?Developed Cart functionality
+?Enabled placing orders
+?Order tracking and display
+Sprint 4:
+?Final bug fixes
+?UI enhancements
+?Hosted on Render
+?Jira issues closed
+
+5. Technologies Used
+?Frontend: React.js, CSS, HTML
+?Backend: Node.js, Express.js
+?Database: MongoDB
+?Authentication: JWT (JSON Web Tokens)
+?Hosting: Render
+?Project Management: Jira
+
+6. Folder Structure
+QuickDine/
++-- Frontend/
+¦   +-- public/
+¦   +-- src/
+¦   +-- .gitignore
+¦   +-- README.md
+¦   +-- eslint.config.js
+¦   +-- index.html
+¦   +-- package-lock.json
+¦   +-- package.json
+¦   +-- vite.config.js
+|
++-- backend/
+¦   +-- config/
+¦   +-- controllers/
+¦   +-- middleware/
+¦   +-- models/
+¦   +-- routes/
+¦   +-- uploads/
+¦   +-- package-lock.json
+¦   +-- package.json
+
+7. Installation Instructions
+1.Clone the repository:
+    git clone https://github.com/Anjankumarkamalapur/Food-Project
+2.Install Frontend dependencies:
+  cd Frontend
+    npm install
+3.Install Backend dependencies:
+cd ../backend
+    npm install
+4.Start the Frontend server:
+cd ../Frontend
+    npm run dev
+5.Start the Backend server:
+cd ../backend
+    node index.js
+    
+8. Deployment
+QuickDine is deployed on Render.
+Live link:  https://quick-dine.onrender.com/
+
+10. Conclusion
+QuickDine demonstrates an effective use of full-stack development principles to deliver a complete food ordering platform. It emphasizes team collaboration, Agile workflow, and modern technology practices to create a real-world solution.
